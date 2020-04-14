@@ -85,3 +85,14 @@ li.timeline {
     top: 2px;
     
 }
+
+ul.nav-buttons {
+    position: relative;
+    background-color: #3578E5;
+    top: -85px;
+    left: 320px;
+    
+}
+ul.nav-buttons li {
+    float: left;
+}
