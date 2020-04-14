@@ -65,6 +65,15 @@ li {
     top: 15px;
     padding: 5px 1.5%;
 }
+li:hover {
+    padding-bottom: 11px;
+    border-bottom: 5px purple solid;
+}
+/* li.timeline:hover + .blue-line {
+    
+    display: block;
+} */
+
 ul {
     background-color: white;
     margin: 0;
@@ -73,9 +82,9 @@ li.timeline {
     font-size: 18px;
     font-weight: bold;
     padding-right: 30px;
-    padding-bottom: 15px;
+    
     border-right: none;
-    /* border-bottom: 6px #3578E5 solid; */
+    
 }
 #toggleImage {
     width: 15px;
