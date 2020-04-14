@@ -65,9 +65,11 @@ li {
     top: 15px;
     padding: 5px 1.5%;
 }
-li:hover {
+.nav-links li:hover {
     padding-bottom: 11px;
-    border-bottom: 5px purple solid;
+    font-size: x-large;
+    line-height: 15px;
+    border-bottom: 5px #3578E5 solid;
 }
 /* li.timeline:hover + .blue-line {
     
