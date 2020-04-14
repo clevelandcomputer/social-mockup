@@ -68,6 +68,7 @@ li {
 .nav-links li:hover {
     padding-bottom: 11px;
     font-size: x-large;
+    font-weight: bold;
     line-height: 15px;
     border-bottom: 5px #3578E5 solid;
 }
@@ -101,9 +102,37 @@ ul.nav-buttons {
     position: relative;
     background-color: #3578E5;
     top: -85px;
-    left: 320px;
+    left: 290px;
     
 }
 ul.nav-buttons li {
     float: left;
+}
+ul.nav-buttons li:nth-child(1) {
+    margin-right: 10px;
+}
+#like-thumb, #message-icon {
+    width: 15px;
+    height: 15px;
+    float: left;
+    background-color: white;
+    padding-right: 2px;
+}
+.follow {
+    color: lightgray;
+}
+.dotdotdot span {
+         width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: black;
+        display: inline-block; 
+         /* margin: 0 5px; */
+         position: relative;
+        bottom: 2px;
+}
+ul.nav-buttons li:nth-child(4)  {
+    padding-right: 4px;
+    padding-left: 4px;
+    
 }
