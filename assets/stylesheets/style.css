@@ -1,21 +1,87 @@
-body {
+* {
     box-sizing: border-box;
+    background-color: lightgray;
 }
 
-#right_header {
-    width: 40%;
-    border: 2px solid orange;
-    height: 300px;
-
-}
 #middle_header {
-    width: 60%;
-    border: 2px solid orange;
+   
+    width: 850px;
     height: 300px;
+    border: 1px lightgray solid;
+    background-color: #3578E5;
+    
+    
+    margin: 0 auto;
+    
 }
 
-#left_header {
-    width: 20%;
-    border: 2px solid orange;
-    height: 300px;
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 1.7px;
+    background-color: #3578E5;
+    position: relative;
+    top: 125px;
+    left: 25px;
+    border: 1px black solid;
+}
+
+nav {
+    width: 850px;
+    height: 50px;
+    background-color: white;
+    /* border: 1px black solid; */
+    margin: 0 auto;
+}
+
+.your-name {
+    color: white;
+    position: relative;
+    background-color: #3578E5;
+    left: 250px;
+    width: 580px;
+    font-size: 35px;
+    font-family: Helvetica;
+    
+}
+.website {
+    color: white;
+    position: relative;
+    background-color: #3578E5;
+    left: 250px;
+    width: 580px;
+    font-size: 30px;
+    font-family: Helvetica;
+    padding-left: 3px;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    line-height: 15px;
+    border-right: 1px lightgray solid;
+    background-color: white;
+    position: relative;
+    left: 210px;
+    top: 15px;
+    padding: 5px 1.5%;
+}
+ul {
+    background-color: white;
+    margin: 0;
+}
+li.timeline {
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    border-right: none;
+    /* border-bottom: 6px #3578E5 solid; */
+}
+#toggleImage {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    position: relative;
+    top: 2px;
+    
 }

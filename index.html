@@ -6,15 +6,42 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/stylesheets/style.css">
 </head>
+<script>
+    function toggleImage() {
+       var img1 = "https://cdn2.iconfinder.com/data/icons/navigation-bar-line/16/Arrow_Navigation_Downward_Direction_Down-512.png";
+       var img2 = "https://cdn2.iconfinder.com/data/icons/navigation-bar-solid/16/Arrow_Navigation_Downward_Direction_Down-512.png";
+       
+       var imgElement = document.getElementById('toggleImage');
+    
+       imgElement.src = (imgElement.src === img1)? img2 : img1;
+    }
+    </script>
 <body>
-    <div id="left_header">
+    
+  
+        <div id="middle_header">
+            <div class="profile-photo">
 
-    </div>
-    <div id="middle_header">
-
-    </div>
-    <div id="right_header">
-
-    </div>
+            </div>   
+            <div class="your-name">
+                Your Page Name
+            </div>      
+            <div class="website">
+                Website
+            </div>                 
+        </div>
+        <nav>
+                <ul>
+                    <li class="timeline">Timeline </li>
+                    <li class="normal">About</li>
+                    <li class="normal">Welcome</li>
+                    <li class="normal">FWB</li>
+                    <li onclick="toggleImage();" class="normal down-arrow">More
+                        <img src="https://cdn2.iconfinder.com/data/icons/navigation-bar-line/16/Arrow_Navigation_Downward_Direction_Down-512.png" alt="down arrow" id="toggleImage" >
+                    </li>
+                </ul>
+        </nav>
+     
+    
 </body>
 </html>
