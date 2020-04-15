@@ -14,7 +14,9 @@
        var imgElement = document.getElementById('toggleImage');
     
        imgElement.src = (imgElement.src === img1)? img2 : img1;
+       document.getElementById("more").setAttribute("id","more-open");
     }
+   
     </script>
 <body>
     
@@ -41,6 +43,7 @@
                     </li>
                 </ul>
                 
+                
                 <ul class="nav-buttons">
                     <li class='like'><img src="https://cdn3.iconfinder.com/data/icons/glyph-web-application-5/64/thumb_up_dislike_facebook_youtube-512.png" id="like-thumb" alt="Like Thumb"> Like </li>
                     <li class='follow'>+ Follow </li>
@@ -50,7 +53,11 @@
                     <span></span>
                     </li>
                 </ul>
+                
         </nav>
+        <div id="more">
+            <p>MORE</p>
+        </div>
     
         <div class="main">
      <div class='content-left'></div>

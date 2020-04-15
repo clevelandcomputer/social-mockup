@@ -160,3 +160,38 @@ ul.nav-buttons li:nth-child(4)  {
     margin: 5px 0 0 6px;
     
 }
+#more {
+    display: none;
+    position: relative;
+    width: 850px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: white;
+    
+
+}
+#more-open {
+    display: show;
+    position: relative;
+    width: 850px;
+    margin: 5px auto;
+    /* height: 150px; */
+    
+}
+#more-open p {
+    display: show;
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    margin: 0;
+    
+}
+#more p {
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    
+}
