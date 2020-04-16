@@ -149,6 +149,7 @@ ul.nav-buttons li:nth-child(4)  {
   
     background-color: white;
     margin-top: 5px;
+    float: left;
 }
 
 .content-right {
@@ -156,29 +157,24 @@ ul.nav-buttons li:nth-child(4)  {
     height: 500px;
     display: inline-block;
     background-color: white;
-    /* margin-top: 5px; */
-    margin: 5px 0 0 6px;
+    margin-top: 5px;
+    /* margin: 5px 0 0 6px; */
+    float: right;
     
 }
 #more {
-    display: none;
+    /* display: none; */
     position: relative;
     width: 850px;
-    margin: 0 auto;
+    margin: 10px auto 5px auto;
     height: 100px;
     background-color: white;
+    height: 120px;
     
 
 }
-#more-open {
-    display: block;
-    position: relative;
-    width: 850px;
-    margin: 5px auto;
-    /* height: 150px; */
-    
-}
-#more-open p {
+
+#more p {
     display: block;
     position: relative;
     font-size: 100px;
@@ -186,12 +182,5 @@ ul.nav-buttons li:nth-child(4)  {
     font-weight: bold;
     background-color: white;
     margin: 0;
-    
-}
-#more p {
-    position: relative;
-    font-size: 100px;
-    text-align: center;
-    font-weight: bold;
     
 }
