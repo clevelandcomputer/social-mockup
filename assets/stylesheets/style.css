@@ -144,7 +144,7 @@ ul.nav-buttons li:nth-child(4)  {
 .content-left {
     width: 328px;
     height: 500px;
-    display: inline-block;
+    
     /* margin: 0 10px 0 0; */
   
     background-color: white;
@@ -155,7 +155,7 @@ ul.nav-buttons li:nth-child(4)  {
 .content-right {
     width: 512px;
     height: 500px;
-    display: inline-block;
+    
     background-color: white;
     margin-top: 5px;
     /* margin: 5px 0 0 6px; */
