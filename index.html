@@ -14,8 +14,41 @@
        var imgElement = document.getElementById('toggleImage');
     
        imgElement.src = (imgElement.src === img1)? img2 : img1;
-       document.getElementById("more").setAttribute("id","more-open");
-    }
+
+       
+    //    var work = document.getElementById("more").setAttribute("id","more-open");
+
+    // var more = document.getElementById("more");
+    // var more1 = document.getElementById("more-open");
+    //         if (more.id === "more") {
+    //             more.id = "more-open";
+    //         } else if (more1.id === "more-open") {
+    //             more1.id = "more";
+    //         }
+    //     }
+    var more = document.getElementById("more");
+    
+            if (more.id === "more") {
+                more.id = "more-open";
+           
+            }
+        
+    var more1 = document.getElementById("more-open");
+             if (more1.id.onclick === "more-open") {
+                more1.id = "more";
+
+            }
+        }
+        // var work2 = document.getElementById('more-open');
+        // if (work2.id == "more-open") {
+        //    work2.id = "more" ;
+        // } else  {
+        //     work2.id = "more-open" ;
+            
+        // } 
+   
+    
+  
    
     </script>
 <body>
