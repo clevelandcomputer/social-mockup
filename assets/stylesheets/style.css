@@ -146,13 +146,52 @@ ul.nav-buttons li:nth-child(4)  {
 }
 .content-left {
     width: 328px;
-    height: 500px;
-    
-    /* margin: 0 10px 0 0; */
-  
     background-color: white;
     margin-top: 5px;
     float: left;
+}
+.div-left-space {
+    width: 328px; 
+    height: 10px;
+    background-color: lightgray;
+    float: left;
+}
+.about {
+    width: 328px;
+    height: 125px;  
+    background-color: white;
+    float: left;
+    margin-bottom: 10px;
+    
+  
+   
+}
+.about-two {
+    width: 328px;
+    height: 100px;  
+    background-color: white;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.apps {
+    width: 328px;
+    height: 300px;  
+    background-color: white;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.photos {
+    width: 328px;
+    height: 400px;  
+    background-color: white;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 
 .content-right {
@@ -196,3 +235,4 @@ button {
 	cursor: pointer;
     outline: inherit;
 }
+
