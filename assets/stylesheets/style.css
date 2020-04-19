@@ -173,20 +173,23 @@ ul.nav-buttons li:nth-child(4)  {
 }
 .apps {
     width: 328px;
-    height: 275px;  
+    height: 320px;  
     background-color: white;
     float: left;
     margin-bottom: 10px;
     
 }
 .photos {
+    box-sizing: content-box;
     width: 328px;
-    height: 400px;  
+    height: 287px;  
     background-color: white;
     float: left;
     margin-bottom: 10px;
     
 }
+
+
 .about-header, .about-two-header, .apps-header, .photos-header {
     
     background-color: #eeeeeece;
@@ -227,6 +230,9 @@ ul.nav-buttons li:nth-child(4)  {
     margin: 0;
     
 }
+.about-content p:nth-child(1) { 
+    padding: 3% 4%;
+} 
 .about-two-content p word {
     padding-left: 25px;
     background-color: white;
@@ -253,22 +259,60 @@ ul.nav-buttons li:nth-child(4)  {
 
 span.blue-box {
      background-color: #3578E5;
-     width: 90px;
+     width: 100px;
      height: 75px;
      
      float: left;
 
 }
+span.blue-box-photos {
+    background-color: #3578E5;
+    width: 100px;
+    height: 75px;
+    margin: 1.4%;
+    float: left;
 
-span.pull-right {
+}
+
+span.pull-right a {
     background-color: white;
     float: right;
-    margin-right: 150px;
+    margin-right: 130px;
     line-height: 75px;
     font-weight: bold;
+    color: black;
+    text-decoration: none;
     
 }
 
+span.pull-right2 a {
+    background-color: white;
+    float: right;
+    margin-right: 155px;
+    line-height: 75px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    
+}
+
+span.pull-right3 a{
+    background-color: white;
+    float: right;
+    margin-right: 115px;
+    line-height: 75px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.footer {
+    width: 328px;
+    height: 40px;
+    float: left;
+    background-color: lightgray;
+}
 
 
 .content-right {
