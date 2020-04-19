@@ -158,29 +158,24 @@ ul.nav-buttons li:nth-child(4)  {
 }
 .about {
     width: 328px;
-    height: 125px;  
+    height: 135px;  
     background-color: white;
     float: left;
     margin-bottom: 10px;
-    
-  
-   
 }
 .about-two {
     width: 328px;
-    height: 100px;  
+    height: 140px;  
     background-color: white;
     float: left;
-    margin-top: 10px;
     margin-bottom: 10px;
     
 }
 .apps {
     width: 328px;
-    height: 300px;  
+    height: 275px;  
     background-color: white;
     float: left;
-    margin-top: 10px;
     margin-bottom: 10px;
     
 }
@@ -189,10 +184,92 @@ ul.nav-buttons li:nth-child(4)  {
     height: 400px;  
     background-color: white;
     float: left;
-    margin-top: 10px;
     margin-bottom: 10px;
     
 }
+.about-header, .about-two-header, .apps-header, .photos-header {
+    
+    background-color: #eeeeeece;
+    height: 40px;
+    width: 328px;
+    float: left;
+    border-bottom: 2px solid lightgray;
+    box-sizing: content-box;
+}
+.about-header p, .about-two-header p, .apps-header p, .photos-header p {
+    
+    background-color: #eeeeeece;
+    line-height: 40px;
+    text-align: left;
+    margin: 0;
+    padding-left: 10px;
+    float: left;
+    border-bottom: 2px solid lightgray;
+    font-weight: bold;
+}
+.about-header span, .about-two-header span, .apps-header span, .photos-header span {
+    
+    background-color: #eeeeeece;
+    float: right;
+    margin: 0;
+    line-height: 40px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.about-content p, .about-two-content p, .apps-content p{
+    background-color: white;
+    height: auto;
+    line-height: 16px;
+    padding: 3%;
+    overflow: hidden;
+    border-bottom: 2px solid lightgray;
+    margin: 0;
+    
+}
+.about-two-content p word {
+    padding-left: 25px;
+    background-color: white;
+   
+}
+
+.about-content a, .about-two-content a {
+    background-color: white;
+    height: auto;
+    line-height: 16px;
+    text-decoration: none;
+    
+}
+.about-two-content img.icon, .about-two-content a {
+    width: 20px;
+    height: auto;
+    background-color: white;
+    padding-top: 3px;
+}
+/* .about-content p:nth-child(1), .about-two-content p:nth-child(1) {
+    border-bottom: 2px solid lightgray;
+    
+} */
+
+span.blue-box {
+     background-color: #3578E5;
+     width: 90px;
+     height: 75px;
+     
+     float: left;
+
+}
+
+span.pull-right {
+    background-color: white;
+    float: right;
+    margin-right: 150px;
+    line-height: 75px;
+    font-weight: bold;
+    
+}
+
+
 
 .content-right {
     width: 512px;
