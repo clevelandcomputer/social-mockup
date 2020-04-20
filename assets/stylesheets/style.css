@@ -76,8 +76,9 @@ li.right {
     position: relative;
     left: 0px;
     top: 0px;
-    padding: 0 1%;
+    padding: 0 !important;
 }
+
 li.right-footer {
     list-style-type: circle;
     display: inline;
@@ -87,7 +88,10 @@ li.right-footer {
     position: relative;
     left: 0px;
     top: 0px;
-    padding: 0 1%;
+    padding: 0 !important;
+}
+li span {
+    padding-left: 5px;
 }
 .nav-links li:hover {
     padding-bottom: 11px;
@@ -297,7 +301,7 @@ ul.nav-buttons li:nth-child(4)  {
 .about-content p:nth-child(1) { 
     padding: 3% 4%;
 } 
-.about-two-content p word {
+.about-two-content p span {
     padding-left: 25px;
     background-color: white;
    
