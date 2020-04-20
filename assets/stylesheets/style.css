@@ -3,15 +3,14 @@ html {
   }
 * {
     box-sizing: border-box;
-    background-color: lightgray;
+    background-color: rgb(175, 173, 173);
 }
 
 #middle_header {
    
     width: 850px;
     height: 300px;
-    border: 1px lightgray solid;
-    background-color: #3578E5;
+    background-color: #3f6299;
     
     
     margin: 0 auto;
@@ -22,7 +21,7 @@ html {
     width: 200px;
     height: 200px;
     border-radius: 1.7px;
-    background-color: #3578E5;
+    background-color: #3f6299;
     position: relative;
     top: 125px;
     left: 25px;
@@ -40,7 +39,7 @@ nav {
 .your-name {
     color: white;
     position: relative;
-    background-color: #3578E5;
+    background-color: #3f6299;
     left: 250px;
     width: 580px;
     font-size: 35px;
@@ -50,7 +49,7 @@ nav {
 .website {
     color: white;
     position: relative;
-    background-color: #3578E5;
+    background-color: #3f6299;
     left: 250px;
     width: 580px;
     font-size: 30px;
@@ -68,12 +67,23 @@ li {
     top: 15px;
     padding: 5px 1.5%;
 }
+li.right {
+    list-style-type: circle;
+    display: inline;
+    line-height: 40px;
+    background-color: lightgray;
+    border-right: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    padding: 0 1%;
+}
 .nav-links li:hover {
     padding-bottom: 11px;
     font-size: x-large;
     font-weight: bold;
     line-height: 15px;
-    border-bottom: 5px #3578E5 solid;
+    border-bottom: 5px #3f6299 solid;
 }
 /* li.timeline:hover + .blue-line {
     
@@ -83,6 +93,23 @@ li {
 ul {
     background-color: white;
     margin: 0;
+}
+ul.right-ul, ul.right-ul a {
+    background-color: lightgray;
+    margin: 0;
+    padding-left: 5px;
+    color: #3f6299;
+    
+}
+ul.right-ul span{
+    background-color: lightgray;
+    font-size: x-large;
+    color: gray;
+    
+    position: relative;
+    top: 3px;
+  
+    
 }
 li.timeline {
     font-size: 18px;
@@ -103,7 +130,7 @@ li.timeline {
 
 ul.nav-buttons {
     position: relative;
-    background-color: #3578E5;
+    background-color: #3f6299;
     top: -85px;
     left: 290px;
     
@@ -153,7 +180,7 @@ ul.nav-buttons li:nth-child(4)  {
 .div-left-space {
     width: 328px; 
     height: 10px;
-    background-color: lightgray;
+    background-color: rgb(175, 173, 173);
     float: left;
 }
 .about {
@@ -192,7 +219,7 @@ ul.nav-buttons li:nth-child(4)  {
 
 .about-header, .about-two-header, .apps-header, .photos-header {
     
-    background-color: #eeeeeece;
+    background-color: lightgray;
     height: 40px;
     width: 328px;
     float: left;
@@ -201,7 +228,7 @@ ul.nav-buttons li:nth-child(4)  {
 }
 .about-header p, .about-two-header p, .apps-header p, .photos-header p {
     
-    background-color: #eeeeeece;
+    background-color: lightgray;
     line-height: 40px;
     text-align: left;
     margin: 0;
@@ -212,7 +239,7 @@ ul.nav-buttons li:nth-child(4)  {
 }
 .about-header span, .about-two-header span, .apps-header span, .photos-header span {
     
-    background-color: #eeeeeece;
+    background-color: lightgray;
     float: right;
     margin: 0;
     line-height: 40px;
@@ -244,6 +271,7 @@ ul.nav-buttons li:nth-child(4)  {
     height: auto;
     line-height: 16px;
     text-decoration: none;
+    color: #3f6299;
     
 }
 .about-two-content img.icon, .about-two-content a {
@@ -258,7 +286,7 @@ ul.nav-buttons li:nth-child(4)  {
 } */
 
 span.blue-box {
-     background-color: #3578E5;
+     background-color: #3f6299;
      width: 100px;
      height: 75px;
      
@@ -266,7 +294,7 @@ span.blue-box {
 
 }
 span.blue-box-photos {
-    background-color: #3578E5;
+    background-color: #3f6299;
     width: 100px;
     height: 75px;
     margin: 1.4%;
@@ -315,9 +343,9 @@ span.pull-right3 a{
 }
 
 
-.content-right {
+.content-right-top {
     width: 512px;
-    height: 500px;
+    height: 315px;
     
     background-color: white;
     margin-top: 5px;
@@ -325,6 +353,217 @@ span.pull-right3 a{
     float: right;
     
 }
+.content-right-second {
+    width: 512px;
+    height: 182px;
+    
+    background-color: white;
+    margin-top: 15px;
+    /* margin: 5px 0 0 6px; */
+    float: right;
+    
+}
+.content-right-third {
+    width: 512px;
+    height: 440px;
+    
+    background-color: white;
+    margin-top: 15px;
+    /* margin: 5px 0 0 6px; */
+    float: right;
+    
+}
+.content-right-fourth {
+    width: 512px;
+    height: 182px;
+    
+    background-color: white;
+    margin-top: 15px;
+    /* margin: 5px 0 0 6px; */
+    float: right;
+    margin-bottom: 10px;
+    
+}
+.content-right {
+    width: 512px;
+    height: 500px;
+    
+    background-color: white;
+    margin-top: 15px;
+    /* margin: 5px 0 0 6px; */
+    float: right;
+    
+}
+.content-footer{
+    
+    background-color: #eeeeeece;
+    height: 40px;
+    margin-top: 5px;
+    width: 512px;
+    float: right;
+    border-top: 2px solid lightgray;
+    box-sizing: content-box;
+    
+}
+.content-footer2{
+    
+    background-color: #eeeeeece;
+    height: 40px;
+    margin-top: 95px;
+    width: 512px;
+    float: right;
+    border-top: 2px solid lightgray;
+    box-sizing: content-box;
+    
+}
+.content-footer3{
+    
+    background-color: #eeeeeece;
+    height: 40px;
+    margin-top: 123px;
+    width: 512px;
+    float: right;
+    border-top: 2px solid lightgray;
+    box-sizing: content-box;
+    
+}
+.content-footer4{
+    
+    background-color: #eeeeeece;
+    height: 40px;
+    margin-top: 95px;
+    width: 512px;
+    float: right;
+    border-top: 2px solid lightgray;
+    box-sizing: content-box;
+    margin-bottom: 10px;
+    
+}
+.content-footer ul {
+    position: relative;
+    
+  
+}
+
+.content-right-big-blue-box {
+    width: 504px;
+    height: 200px;
+    background-color: #3f6299;
+    float: right;
+    
+    margin: 30px 4px 0 4px;
+    box-sizing: content-box;
+    
+    
+}
+.content-right-big-blue-box-event {
+    width: 490px;
+    height: 200px;
+    background-color: #3f6299;
+    float: right;
+    
+    margin: 30px 11px 0 11px;
+    box-sizing: content-box;
+    
+    
+}
+.event-paragraph {
+    background-color: white;
+    border: 2px solid lightgray;
+    border-top: none;
+    margin: 275px 11px 0px 11px;
+    padding: 1%;
+    position: absolute;
+    width: 490px;
+
+
+}
+.event-name {
+    background-color: white;
+    
+    margin-top: 10px;
+    color: #3f6299;
+}
+.event-action {
+    background-color: white;
+    color: gray;
+}
+.event-join {
+    float: right;
+    background-color: white;
+    position: absolute;
+    margin-left: 270px;
+    margin-top: -15px;
+    border: 2px #a7a2a2ad solid;
+    width: 70px;
+    height: 36px;
+    line-height: 25px;
+    padding: .7%;
+}
+.calendar-image {
+    width: 25px;
+    height: auto;
+    float: left;
+    
+}
+.content-right-top-header{
+    width: 504px;
+    height: 40px;
+    background-color: white;
+    float: right;
+    
+    margin: 5px 4px 0 4px;
+    box-sizing: content-box;
+  
+    
+}
+.profile-pic-mini {
+    width: 50px;
+    height: 50px;
+    background-color: #3f6299;
+    float: left;
+    margin: 1%;
+}
+span.page-name {
+    background-color: white;
+    position: absolute;
+    margin-top: 10px;
+    color: #3f6299;
+}
+span.action {
+    background-color: white;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 115px;
+    color: gray;
+}
+span.cover-photo {
+    background-color: white;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 207px;
+    color: #3f6299;
+}
+span.time {
+    background-color: white;
+    position: absolute;
+    margin-top: 10px;
+    color: gray;
+    margin-left: 2px;
+    
+}
+
+.content-right-paragraph {
+    width: 512px;
+    margin: 70px auto 0 auto;
+    position: absolute;
+    text-align: left;
+    background-color: white;
+    padding: 0 11px 0 11px;
+    
+}
+
+
 #more {
     /* display: none; */
     position: relative;
