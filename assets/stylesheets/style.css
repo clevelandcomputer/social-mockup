@@ -78,6 +78,17 @@ li.right {
     top: 0px;
     padding: 0 1%;
 }
+li.right-footer {
+    list-style-type: circle;
+    display: inline;
+    line-height: 20px;
+    background-color: rgb(175, 173, 173);
+    border-right: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    padding: 0 1%;
+}
 .nav-links li:hover {
     padding-bottom: 11px;
     font-size: x-large;
@@ -111,6 +122,25 @@ ul.right-ul span{
   
     
 }
+ul.footer-ul, ul.footer-ul a {
+    background-color: rgb(175, 173, 173);
+    margin: 0;
+    /* padding-left: 5px; */
+    color: rgb(94, 88, 88);
+    padding-left: 2px;
+    font-size: small;
+    
+}
+
+ul.footer-ul span{
+    background-color: rgb(175, 173, 173);
+    font-size: x-large;
+    color: gray;
+    position: relative;
+    top: 3px;
+  
+    
+}
 li.timeline {
     font-size: 18px;
     font-weight: bold;
@@ -123,6 +153,13 @@ li.timeline {
     width: 15px;
     height: 15px;
     background-color: white;
+    position: relative;
+    top: 2px;
+    
+}
+#toggleImage2 {
+    width: 10px;
+    height: 10px;
     position: relative;
     top: 2px;
     
@@ -339,7 +376,8 @@ span.pull-right3 a{
     width: 328px;
     height: 40px;
     float: left;
-    background-color: lightgray;
+    position: relative;
+    top: -15px;
 }
 
 
